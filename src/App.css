@@ -1,0 +1,92 @@
+.flexing{
+    display: flex;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+hr{
+    color: white;
+    border: 2px solid white;
+}
+input{
+    width: 100%;
+    line-height: normal;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 40px
+}
+
+select{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 40px
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+::placeholder{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    color: white;
+}
+form{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    margin-top: 5px;
+}
+.mydesign{
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(172, 55, 55);
+    color: white;
+    font-weight: 700;
+}
+.mydesign:hover{
+    background-color: white;
+    color: red;
+}
+
+.issue_footer{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.issue-list{
+    display: flex;
+    justify-content: space-between;
+}
+td, th{
+    color: white;
+}
+@media (max-width: 416px) {
+    .flexing{
+        flex-direction: column;
+    }
+  }
