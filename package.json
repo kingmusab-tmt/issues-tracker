@@ -1,7 +1,7 @@
 {
   "name": "issue-tracker",
   "version": "0.1.0",
-  "homepage": "https://github.com/kingmusab-tmt/issues-tracker.git",
+  "homepage": "https://kingmusab-tmt.github.io/issues-tracker",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
